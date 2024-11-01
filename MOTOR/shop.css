@@ -140,9 +140,9 @@ section ul li{
     padding: 25px 0;
     align-items: center;
     background-color: #192229;
-    bottom:0%;
+    bottom:12%;
     margin-left: 20%;
-    margin-bottom: 90px;
+
    }
 .find select{
     font-weight: bold;
@@ -578,20 +578,8 @@ footer{
 .nav-mobile-input:checked ~ .menu-mobile{
     transform: translateX(0%);
 }
-@media (max-width: 1200px){
-   
-    .find{
-        display: none;
-    }
-    .footer{
-        width: 400px;
-    }
-    .car{
-        width: 600px;
-        display: inline-block;
-    }
 
-}
+
 @media (max-width: 580px){
     .element{
         display: block;
@@ -609,7 +597,18 @@ footer{
     nav{
         overflow:hidden;
         flex-direction: column; 
+        width: 100%;
     }
+    .box{
+        width: 100%;
+    }
+    .lastest{
+        width: 100%;
+    }
+    .brower{
+        width: 95%;
+    }
+    
     nav .item{
         display:flex;
         margin-top: 55px;
@@ -664,24 +663,30 @@ footer{
         font-size: 1.4rem;
     }
     .car{
-        width: 400px;
+        width: 80%;
         display: inline-block;
     }
+    .car img{
+        width: 90%;
+    }
+    .car .sale{
+        width: 92%;
+    }
     .col-8 .sale{
-        width: 450px;
+        width: 330px;
     }
     .col-8 .element {
-        width: 400px;
+        width: 330px;
     }
     .col-8 .contact{
-        width: 450px;
+        width: 330px;
     }
     .col-8 .hotline{
-        width: 450px;
+        width: 330px;
     }
     .motor-img img{
         margin-left: 30px;
-        width: 400px;
+        width: 300px;
     }
     footer{
         width: 100%;

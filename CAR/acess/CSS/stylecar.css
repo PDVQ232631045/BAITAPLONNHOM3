@@ -331,8 +331,8 @@ footer{
       display:none;
       background-color:rgb(31, 50, 63);
       position:absolute;
-      top:63%;
-      left:13%;
+      top:62.5%;
+      left:7%;
   }
   nav .sub-nav li{
       display:inline-block;
