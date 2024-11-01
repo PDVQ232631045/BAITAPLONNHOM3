@@ -190,6 +190,7 @@ nav .menu{
 }
 .box-content{
     display:flex;
+    justify-content: space-between;
     margin-top: 10px;
 }
 .slider-list .box img{
@@ -203,6 +204,7 @@ nav .menu{
 }
 .box-content button{
     font-size: 15px;
+    
     color:#fff;
     font-weight: 600;
     margin-left: 10px;
@@ -246,7 +248,7 @@ nav .menu{
     background-color:#bab5b5;
 }
 .images2-container {
-    background-image: url('/assets/img/anh6.webp');
+    background-image: url('/TRANGCHU/assets/img/anh6.webp');
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 20px;
@@ -262,7 +264,6 @@ nav .menu{
 .images2 .box1{
     background-color:rgb(222, 51, 51);
     height:130px;
-  
     margin-top: 80px;
     
 }
@@ -438,6 +439,13 @@ footer .box1 .days{
     color:rgb(38, 115, 209);
     padding:0 20px;
 }
+
+
+
+
+
+
+
 .login-container.open{
     display:flex;
 }
@@ -718,6 +726,9 @@ footer .box1 .days{
 
     .images-container .prev, .next{
         display:none;
+    }
+    .box-content p{
+        font-size: 12px;
     }
 }
 

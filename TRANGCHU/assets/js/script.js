@@ -1,3 +1,6 @@
+
+
+ /*ảnh auto*/
 let currentIndex = 0;
 let imageInterval;
 
@@ -38,7 +41,7 @@ startAutoImage();
 showImage(currentIndex);
 
 
-
+ /*nav mobile*/
 const menuToggle = document.querySelector('.menu');
 const mainNav = document.querySelector('.main-nav')
 
@@ -47,11 +50,10 @@ menuToggle.addEventListener('click', () => {
 });
 
 
-
+   /* Đăng nhập*/
     const loGins = document.querySelectorAll('.js-login');
     const loginContainer = document.querySelector('.login-container');  
     const loginClose = document.querySelector('.js-closelogin');  
-    
     
     function showLogin() {
         loginContainer.classList.add('open');
@@ -67,7 +69,22 @@ menuToggle.addEventListener('click', () => {
     loginClose.addEventListener('click', closeLogin)
     
     
+     /* Đăng ký*/
+    const siGnups = document.querySelectorAll('.js-signup');
+    const signupContainer = document.querySelector('.signup-container');
+    const signupClose = document.querySelector('.js-closesignup'); 
 
 
+    function showSignup() {
+        signupContainer.classList.add('open');
+    }
 
-    
+    function closeSignup() {
+        signupContainer.classList.remove('open');
+    }
+
+    siGnups.forEach(item => {
+        item.addEventListener('click', showSignup);
+    });
+
+    signupClose.addEventListener('click', closeSignup); 
